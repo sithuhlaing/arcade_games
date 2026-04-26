@@ -1,7 +1,7 @@
 {
-  "name": "plants-vs-zombies-clone",
+  "name": "arcade-collection",
   "version": "1.0.0",
-  "description": "A Plants vs Zombies clone built with Phaser 3 and TypeScript",
+  "description": "A collection of classic arcade games (Flappy Bird, Breakout) built with Phaser 3 and TypeScript",
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
