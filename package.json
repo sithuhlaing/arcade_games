@@ -1,0 +1,24 @@
+{
+  "name": "plants-vs-zombies-clone",
+  "version": "1.0.0",
+  "description": "A Plants vs Zombies clone built with Phaser 3 and TypeScript",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "npx playwright test"
+  },
+  "dependencies": {
+    "phaser": "^3.85.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "playwright": "^1.59.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.9.5",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "sourceMap": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "module": "ESNext"
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

@@ -1,0 +1,24 @@
+[    8185ms] [INFO] [webpack-dev-server] Server started: Hot Module Replacement enabled, Live Reloading enabled, Progress disabled, Overlay enabled. @ webpack://plants-vs-zombies-clone/./node_modules/webpack-dev-server/client/modules/logger/index.js?:484
+[    8187ms] [LOG] [HMR] Waiting for update signal from WDS... @ webpack://plants-vs-zombies-clone/./node_modules/webpack/hot/log.js?:38
+[    8668ms] [LOG] %c %c %c %c %c Phaser v3.90.0 (WebGL | Web Audio) %c https://phaser.io/v390 background: #ff0000 background: #ffff00 background: #00ff00 background: #00ffff color: #ffffff; background: #000000 background: transparent @ webpack://plants-vs-zombies-clone/./node_modules/phaser/dist/phaser.js?:16704
+[   11181ms] [ERROR] [webpack-dev-server] Errors while compiling. Reload prevented. @ webpack://plants-vs-zombies-clone/./node_modules/webpack-dev-server/client/modules/logger/index.js?:492
+[   11181ms] [ERROR] [webpack-dev-server] ERROR in ./src/games/breakout/scenes/BreakoutMainScene.ts (/Users/sithuhlaing/Projects/Games/flappybrid/src/games/breakout/scenes/BreakoutMainScene.ts) 14:36-49
+[tsl] ERROR in /Users/sithuhlaing/Projects/Games/flappybrid/src/games/breakout/scenes/BreakoutMainScene.ts(14,37)
+      TS2339: Property 'BREAKOUT_MAIN' does not exist on type '{ BOOT: string; MENU: string; MAIN: string; GAME_OVER: string; }'. @ webpack://plants-vs-zombies-clone/./node_modules/webpack-dev-server/client/modules/logger/index.js?:492
+[   11252ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/favicon.ico:0
+[   22985ms] [INFO] [webpack-dev-server] App updated. Recompiling... @ webpack://plants-vs-zombies-clone/./node_modules/webpack-dev-server/client/modules/logger/index.js?:484
+[   23308ms] [INFO] [webpack-dev-server] App hot update... @ webpack://plants-vs-zombies-clone/./node_modules/webpack-dev-server/client/modules/logger/index.js?:484
+[   23309ms] [LOG] [HMR] Checking for updates on the server... @ webpack://plants-vs-zombies-clone/./node_modules/webpack/hot/log.js?:38
+[   23328ms] [WARNING] [HMR] Cannot apply update. Need to do a full reload! @ webpack://plants-vs-zombies-clone/./node_modules/webpack/hot/log.js?:40
+[   23328ms] [WARNING] [HMR] Error: Aborted because ./src/games/breakout/scenes/BreakoutMainScene.ts is not accepted
+Update propagation: ./src/games/breakout/scenes/BreakoutMainScene.ts -> ./src/game.ts
+    at applyHandler (http://localhost:8080/bundle.js:1283:31)
+    at http://localhost:8080/bundle.js:971:21
+    at Array.map (<anonymous>)
+    at internalApply (http://localhost:8080/bundle.js:970:54)
+    at http://localhost:8080/bundle.js:941:26
+    at waitForBlockingPromises (http://localhost:8080/bundle.js:895:48)
+    at http://localhost:8080/bundle.js:939:24 @ webpack://plants-vs-zombies-clone/./node_modules/webpack/hot/log.js?:40
+[   23877ms] [INFO] [webpack-dev-server] Server started: Hot Module Replacement enabled, Live Reloading enabled, Progress disabled, Overlay enabled. @ webpack://plants-vs-zombies-clone/./node_modules/webpack-dev-server/client/modules/logger/index.js?:484
+[   23879ms] [LOG] [HMR] Waiting for update signal from WDS... @ webpack://plants-vs-zombies-clone/./node_modules/webpack/hot/log.js?:38
+[   24084ms] [LOG] %c %c %c %c %c Phaser v3.90.0 (WebGL | Web Audio) %c https://phaser.io/v390 background: #ff0000 background: #ffff00 background: #00ff00 background: #00ffff color: #ffffff; background: #000000 background: transparent @ webpack://plants-vs-zombies-clone/./node_modules/phaser/dist/phaser.js?:16704

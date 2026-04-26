@@ -1,0 +1,12 @@
+- iframe [ref=e4]:
+  - generic [ref=f1e2]:
+    - generic [ref=f1e3]: "Compiled with problems:"
+    - button "Dismiss" [ref=f1e4] [cursor=pointer]: ×
+    - generic [ref=f1e6]:
+      - generic [ref=f1e7] [cursor=pointer]: ERROR in ./src/games/breakout/scenes/BreakoutMainScene.ts (/Users/sithuhlaing/Projects/Games/flappybrid/src/games/breakout/scenes/BreakoutMainScene.ts) 14:36-49
+      - generic [ref=f1e8]:
+        - text: "[tsl]"
+        - generic [ref=f1e9]: ERROR
+        - generic [ref=f1e10]: in
+        - generic [ref=f1e11]: /Users/sithuhlaing/Projects/Games/flappybrid/src/games/breakout/scenes/BreakoutMainScene.ts(14,37)
+        - generic [ref=f1e12]: "TS2339: Property 'BREAKOUT_MAIN' does not exist on type '{ BOOT: string; MENU: string; MAIN: string; GAME_OVER: string; }'."
